@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy · Bopper Finance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow"><a href="index.html">Bopper Finance</a></p>
+    <h1>Privacy policy</h1>
+    <p>Updated September 30, 2026</p>
+    <p>Bopper Finance stores the household's card benefit selections and usage so members can track which benefits remain available. Access to household records is limited to enrolled Finance members.</p>
+    <section>
+      <h2>Google Calendar data</h2>
+      <p>Google Calendar is optional and connected separately by each person. With your permission, Bopper Finance creates a secondary calendar in your Google account and creates, updates, and removes its benefit deadline events there. It checks whether that calendar still exists. It does not read your existing calendars or their events.</p>
+      <p>Calendar events can contain the card name, benefit name, benefit details, value, and remaining uses from your Finance record. They are all-day, marked private and free, and have Calendar reminders turned off. Anyone with access to your Google account or to a calendar you choose to share may be able to see those events.</p>
+      <p>To maintain the connection, the Finance backend stores your Google account identifier and email address, an encrypted Google refresh token, the ID of the calendar it created, and IDs of the benefit events it manages. The Google token is kept in backend storage and is not sent to other Finance members or stored in the app's shared card records.</p>
+    </section>
+    <section>
+      <h2>Use and sharing</h2>
+      <p>Finance sends benefit event content to Google Calendar only to provide the connection you requested. It uses Supabase to store Finance records and the connection data needed for scheduled syncing. Google data obtained through this connection is not used for advertising or sold.</p>
+    </section>
+    <section>
+      <h2>Retention and control</h2>
+      <p>You can mark a benefit used to remove its event, or disconnect Google Calendar from Profile. On a successful disconnect, Finance removes the benefit events it tracks, deletes the stored connection, and revokes its Google token. The secondary calendar and any events you added to it yourself remain in your Google account. If cleanup fails, the app keeps the connection visible so you can retry. Disconnecting Calendar does not delete your Finance card records.</p>
+      <p>You can also review or revoke Bopper Finance access in your Google Account settings. Revoking access there stops future syncing; you may need to remove existing Finance events from Google Calendar yourself.</p>
+    </section>
+    <footer><a href="index.html">Back to Bopper Finance</a></footer>
+  </main>
+</body>
+</html>
